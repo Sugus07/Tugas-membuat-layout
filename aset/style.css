@@ -12,7 +12,7 @@ body {
 /* header */
 .header {
     max-width: 100%;
-    height: 200px;
+    height: 400px;
     background-image: url(../img/rear-view-programmer-working-all-night-long.jpg);
     background-size: cover;
     background-position: 0 -100px;
@@ -93,15 +93,15 @@ body {
 }
 
 .list-materi ul li {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     float: left;
     margin-right: 20px;
 }
 
 .list-materi img {
     width: 100%;
-    height: 70px;
+    height: 50px;
 }
 
 /* akhir dari materi */
@@ -160,8 +160,8 @@ body {
 /* img pemateri */
 
 .pemateri img {
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
@@ -188,7 +188,7 @@ body {
 
 .web-dev {
     max-width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #4C6793;
     margin: 30px auto;
     padding: 20px;
@@ -299,7 +299,7 @@ body {
 
 .community {
     max-width: 100%;
-    height: 300px;
+    height: 350px;
     display: flex;
     margin: 20px auto;
     background-color: #4C6793;
@@ -314,7 +314,7 @@ body {
 .main-community {
     max-width: 500px;
     padding: 10px;
-    margin: 70px auto;
+    margin: 20px auto;
 }
 
 .main-community h1 {
@@ -358,7 +358,7 @@ body {
 .member-botcamp {
     width: 100%;
     margin: 10px auto;
-    padding: 20px;
+    padding: 5px;
     box-sizing: border-box;
     background-color: #4C6793;
 }
