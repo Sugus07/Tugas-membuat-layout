@@ -423,57 +423,60 @@
     }
     
     /* table */
-    .member-botcamp {
-        width: 100%;
-        margin: 10px auto;
-        padding: 5px;
-        box-sizing: border-box;
-        background-color: #4C6793;
-    }
     
-    .member-botcamp h1 {
-        text-align: center;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #fff;
-    }
+.member-botcamp {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #4C6793;
+    box-sizing: border-box;
+}
+
+.member-botcamp h1 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.table {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    box-sizing: border-box;
     
-    .table {
-        width: 100%;
-        height: auto;
-        margin: 20px auto;
-        display: flex;
-        justify-content: center;
-    }
-    
-    table {
-        max-width: 100%;
-        border-radius: 20px;
-        overflow: hidden;
-        border: 2px solid #fff;
-        box-shadow: 5px 5px 5px black;
-    }
-    
-    thead {
-        text-align: center;
-        background-color: #F2F4F6;
-    }
-    
-    tbody {
-        background-color: #F2F4F6;
-    }
-    
-    .master {
-        background-color: #00F5FF;
-    }
-    
-    .no {
-        text-align: center;
-    }
-    
-    .keaktifan {
-        text-align: center;
-    }
-    
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+
+thead {
+    text-align: center;
+    background-color: #F2F4F6;
+}
+
+tbody {
+    background-color: #F2F4F6;
+}
+
+.master {
+    background-color: #00F5FF;
+}
+
+.no {
+    text-align: center;
+}
+
+.keaktifan {
+    text-align: center;
+}
 }
