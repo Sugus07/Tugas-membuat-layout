@@ -380,6 +380,7 @@ body {
     align-items: center;
     margin: 10px auto;
     box-sizing: border-box;
+    overflow-x: auto;
     
 }
 
