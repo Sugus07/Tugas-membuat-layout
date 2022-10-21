@@ -390,6 +390,7 @@ table {
     border-radius: 20px;
     overflow: hidden;
     border: 2px solid #fff;
+    box-sizing: border-box;
 }
 
 thead {
