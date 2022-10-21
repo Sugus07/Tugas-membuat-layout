@@ -380,8 +380,6 @@ body {
 
 table {
     max-width: 100%;
-    display: flex;
-    justify-content: center;
     border-radius: 20px;
     overflow: hidden;
     border: 2px solid #fff;
