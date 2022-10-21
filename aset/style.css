@@ -384,7 +384,7 @@ body {
 }
 
 table {
-    width: 100%;
+    width: 100px;
     margin: auto;
     border-radius: 20px;
     overflow: hidden;
