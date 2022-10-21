@@ -265,7 +265,7 @@ body {
 }
 
 .header-event {
-    width: 330px;
+    max-width: 100%;
     height: 50px;
     background-color: #4C6793;
     padding: 10px;
