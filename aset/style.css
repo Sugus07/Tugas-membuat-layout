@@ -299,14 +299,13 @@ body {
 
 .community {
     max-width: 100%;
-    height: 350px;
+    height: 400px;
     display: flex;
-    margin: 20px auto;
+    margin: 30px auto;
     background-color: #4C6793;
     color: #fff;
     box-sizing: border-box;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 50px;
 }
 
 .content-community {
@@ -315,8 +314,9 @@ body {
 
 .main-community {
     max-width: 500px;
-    padding: 10px;
+    padding: 30px;
     margin: 20px auto;
+    box-sizing: border-box;
 }
 
 .main-community h1 {
@@ -587,6 +587,7 @@ tbody {
     display: flex;
     line-height: 30px;
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 
 .mail img {
