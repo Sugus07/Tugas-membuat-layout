@@ -110,8 +110,8 @@ body {
 
 .pemateri {
     width: 100%;
-    height: 600px;
-    margin: 20px auto;
+    height: 650px;
+    margin: 30px auto;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -305,6 +305,8 @@ body {
     background-color: #4C6793;
     color: #fff;
     box-sizing: border-box;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .content-community {
@@ -371,6 +373,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 20px auto;
+    color: #fff;
 }
 
 .table {
@@ -558,6 +561,40 @@ tbody {
     margin-right: 10px;
 }
 
+.home {
+    display: flex;
+}
+
+.home img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.phone {
+    display: flex;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.phone img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.mail {
+    display: flex;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.mail img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
 .ti20c,.sumber,.contact {
     margin: 20px;
     box-sizing: border-box;
@@ -567,6 +604,7 @@ tbody {
 
 .sosial {
     width: 100%;
+    margin-top: 20px;
 }
 
 .sosial ul li img {
