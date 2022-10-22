@@ -299,7 +299,6 @@ body {
 
 .community {
     max-width: 100%;
-    display: flex;
     margin: 30px auto;
     background-color: #4C6793;
     color: #fff;
@@ -308,13 +307,15 @@ body {
 }
 
 .content-community {
-    width: 50%;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
 }
 
 .main-community {
-    max-width: 500px;
-    padding: 30px;
-    margin: 20px auto;
+    max-width: 100%;
+    margin: auto;
     box-sizing: border-box;
 }
 
@@ -338,13 +339,14 @@ body {
 
 
 .img-community {
-    width: 50%;
-    margin-left: 50px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin:auto;
 }
 
 .main-img-community {
-    margin: 15px auto;
+    margin: auto;
     width: 400px;
     height: 400px;
 }
